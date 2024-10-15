@@ -1,0 +1,36 @@
+
+/* Set the background color for the entire body */
+body {
+    background-color: beige;  /* Changes the background color to beige *//* Type selector */
+}
+
+p {
+    color: blue;               /* Changes the color of all <p> elements */
+    font-size: 16px;          /* Sets the font size for all <p> elements */
+}
+
+/* ID selector */
+#learn-more {
+    background-color: lightblue; /* Sets background color for the button with this ID */
+    border: none;                /* Removes the border */
+    padding: 10px;              /* Adds padding */
+    cursor: pointer;            /* Changes cursor hover*/
+}
+
+/* Class selector */
+.Hello {
+    font-weight: bold;          /* Makes text bold for elements with the class "Hello" */
+    font-size: 24px;           /* Increases font size for elements with the class "Hello" */
+}
+
+/* Pseudo-class */
+.hover-text:hover {
+    color: red;                /* Changes text color to red on hover */
+    font-weight: bold;         /* Makes text bold on hover */
+}
+
+/* Pseudo-element big letter with different color */
+.Hello::first-letter {
+    font-size: 2em;            /* Increases size of the first letter */
+    color: orange;             /* Changes color of the first letter */
+}
